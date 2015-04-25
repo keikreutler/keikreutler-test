@@ -1,5 +1,4 @@
 prose:
-  rooturl: 'partials'
+  rooturl: 'src/partials'
   siteurl: 'http://keikreutler.github.io/'
   media: 'media'
-  ignore:
