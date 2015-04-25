@@ -17,14 +17,19 @@ published: true
 
 <a name="current-activites"></a>
 <section>
-	<h2>Current Activities</h2>
-	<div>
-		<%- @partial('current-activities') %>
+	<div class="container">
+		<h2>Current Activities</h2>
+		<div class="col-sm-8 current-activities">
+			<%- @partial('current-activities') %>
+		</div>
+		<div class="col-sm-4" id="calendar">
+		</div>
 	</div>
 </section>
 
 <section id="description" class="accent">
 	<div class="container">
+		<iframe width="640" height="360" src="https://www.youtube.com/embed/O3t2MRB-rn8" frameborder="0" allowfullscreen></iframe>
 		<div class="row">
 			<div class="col-sm-8 col-sm-offset-2">
 				<p>
@@ -32,16 +37,26 @@ published: true
 				</p>
 			</div>
 		</div>
-		<iframe width="640" height="360" src="https://www.youtube.com/embed/O3t2MRB-rn8" frameborder="0" allowfullscreen></iframe>
-		<div class="row">
-			<div class="col-sm-8 col-sm-offset-2">
-				<h3>The Idea</h3>
-				<h3>The Place</h3>
-				<h3>The People</h3>
-				<h3>The Work</h3>
-				<h3>The Culture</h3>
-				<h3>The Equipment</h3>
-			</div>
-		</div>
 	</div>
 </section>
+
+<section>
+	<h3>The Idea</h3>
+	<h3>The Place</h3>
+	<h3>The People</h3>
+	<h3>The Work</h3>
+	<h3>The Culture</h3>
+	<h3>The Equipment</h3>
+</section>
+
+<script type='text/javascript'>
+
+$(document).ready(function() {
+    $('#calendar').fullCalendar({
+        googleCalendarApiKey: 'AIzaSyCW11B9Hojmerk-vFKY08I0mf_g_CQAx6Y',
+        events: {
+            googleCalendarId: ' 74ul0d0i6oc3mp8g2e0o0h28sc@group.calendar.google.com',
+        }
+    });
+});
+</script>

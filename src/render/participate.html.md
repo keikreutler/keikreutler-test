@@ -2,7 +2,7 @@
 title: Participate
 layout: default
 tags: ['page']
-pageOrder: 2
+pageOrder: 3
 ---
 
 This is a **page**

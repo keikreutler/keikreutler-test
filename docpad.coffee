@@ -42,17 +42,24 @@ docpadConfig = {
 			styles: [
 				"//fonts.googleapis.com/css?family=Montserrat:400,700"
 				"http://fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,400italic,600,600italic,700,700italic"
+				"//api.tiles.mapbox.com/mapbox.js/v2.0.1/mapbox.css"
 				"//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+				"/scripts/fullcalendar/fullcalendar.min.css"
+				"/scripts/fullcalendar/fullcalendar.print.css"
 				"/styles/twitter-bootstrap.css"
 				"/styles/style.css"
-			]
 
+			]
 			# Scripts
 			scripts: [
 				"//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"
 				"//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"
+				"/scripts/gcal.js"
+				"/scripts/fullcalendar/lib/moment.min.js"
+				"//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.3.1/fullcalendar.min.js"
 				"/vendor/twitter-bootstrap/dist/js/bootstrap.min.js"
 				"/scripts/script.js"
+				"/scripts/calendar.js"
 			]
 
 

@@ -46,9 +46,6 @@
 			</div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav navbar-right">
-					<li>
-						<a href="#current-activites">Current Activities</a>
-					</li>
 					<% for document in @getCollection('pages').toJSON(): %>
 						<li
 							typeof="sioc:Page"
@@ -80,13 +77,8 @@
 		</div>
 	</div>
 
-	<div class="banner-image">
-	</div>
-
 	<!-- Content -->
-		<section id="content" class="content">
 			<%- @content %>
-		</section>
 
 	<!-- Footer -->
 	<footer>
@@ -96,6 +88,5 @@
 
 	<!-- Scripts -->
 	<%- @getBlock('scripts').add(@site.scripts).toHTML() %>
-
 </body>
 </html>

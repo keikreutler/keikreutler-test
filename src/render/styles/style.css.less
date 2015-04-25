@@ -13,6 +13,11 @@ a {
 	cursor: pointer;
 }
 
+a:hover, a:active, a:visited {
+	color: #639016;
+	text-decoration: none;	
+}
+
 p {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
@@ -94,4 +99,43 @@ section {
 iframe {
 	display: block;
 	margin: 0 auto;
+}
+
+.current-activities {
+	h4 {
+		margin-top: 30px;
+		text-align: left;
+	}
+	p {
+		font-size: 14px;
+		text-align: left;
+	}
+}
+
+/*****************
+Dashboard
+*****************/
+.stageOne {
+	background-color: #649eb5;
+}
+.stageTwo {
+	background-color: #c6c659;
+}
+.stageThree {
+	background-color: #79a863;
+}
+.stageThree .current-stage {
+	background-color: #79a863;
+}
+.stageFour {
+	background-color: #719261;
+}
+#stages {
+	.col-sm-3 {
+		height: 100px;
+		h4 {
+			padding: 30px 20px;
+			color: #fff;
+		}
+	}
 }

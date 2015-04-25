@@ -1,0 +1,46 @@
+---
+title: Dashboard
+layout: dashboard
+---
+
+<div id="stages" class="row">
+  <div class="col-sm-3 stageOne">
+    <h4>Foundations and Alignment</h4>
+  </div>
+  <div class="col-sm-3 stageTwo">
+    <h4>Scoping</h4>
+  </div>
+  <div class="col-sm-3 stageThree current-stage">
+    <h4>Newtorks and Partnerships</h4>
+  </div>
+  <div class="col-sm-3 stageFour">
+    <h4>PreMon Recon</h4>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-4">
+    Map
+  </div>
+  <div class="col-sm-4">
+    Calendar
+  </div>
+  <div class="col-sm-4">
+    <ul class="list-group">
+      <li class="list-group-item">Current tasks</li>
+      <li class="list-group-item">Projects</li>
+      <li class="list-group-item">Scriptorium</li>
+      <li class="list-group-item">People</li>
+      <li class="list-group-item">Report</li>
+    </ul>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-4">
+    Map
+  </div>
+  <div class="col-sm-4">
+    Updates
+  </div>
+</div>
