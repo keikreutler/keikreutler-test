@@ -1,0 +1,6 @@
+prose:
+  rooturl: '/render'
+  siteurl: 'http://keikreutler.github.io/'
+  media: 'media'
+  ignore:
+    - index.html
