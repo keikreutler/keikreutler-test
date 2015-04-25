@@ -1,8 +1,5 @@
 prose:
-  rooturl: 'src'
+  rooturl: 'partials'
   siteurl: 'http://keikreutler.github.io/'
   media: 'media'
   ignore:
-    - index.html
-    - files
-    - static
