@@ -1,0 +1,40 @@
+@brand-color					darken(#89B63C, 10%);
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', sans-serif;
+	color: @brand-color;
+	text-transform: uppercase;
+}
+
+a, a:link {
+	cursor: pointer;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	padding-top: 100px;
+}
+
+.navbar-default {
+	background-color: #FFF;
+	font-family: 'Montserrat', sans-serif;
+	padding: 10px 0;
+	border: none;
+	box-shadow: 0 5px 8px rgba(0,0,0,0.1);
+	.navbar-brand {
+		color: @brand-color;
+	}
+	.navbar-nav {
+		li {
+			a {
+				color: @brand-color;
+			}
+		}
+	}
+}

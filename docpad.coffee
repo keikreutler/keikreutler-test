@@ -12,16 +12,15 @@ docpadConfig = {
 		# Specify some site properties
 		site:
 			# The production url of our website
-			url: "http://website.com"
+			url: "http://keikreutler.github.io"
 
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [
-				'www.website.com',
-				'website.herokuapp.com'
+				'www.unmonastery.eu'
 			]
 
 			# The default title of our website
-			title: "Your Website"
+			title: "unMonastery"
 
 			# The website description (for SEO)
 			description: """
@@ -34,13 +33,16 @@ docpadConfig = {
 				"""
 
 			# The website author's name
-			author: "Your Name"
+			author: "Kei Kreutler"
 
 			# The website author's email
-			email: "your@email.com"
+			email: "kei@unmonastery.org"
 
 			# Styles
 			styles: [
+				"//fonts.googleapis.com/css?family=Montserrat:400,700"
+				"http://fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,400italic,600,600italic,700,700italic"
+				"//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
 				"/styles/twitter-bootstrap.css"
 				"/styles/style.css"
 			]
