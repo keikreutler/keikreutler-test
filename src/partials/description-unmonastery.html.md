@@ -1,0 +1,3 @@
+The unMonastery is a social clinic for the future.  It is a meeting place for the suspicious.  It is of deep concern.
+
+The unMonastery repeatedly fails to define itself in anything other than its real time work.  It is urgently important that it succeed.

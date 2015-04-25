@@ -1,40 +1,97 @@
-@brand-color					darken(#89B63C, 10%);
-
-
-h1, h2, h3, h4, h5, h6 {
-	font-family: 'Montserrat', sans-serif;
-	color: @brand-color;
-	text-transform: uppercase;
+html {
+	width: 100%;
+	height: 100%;
 }
 
-a, a:link {
+body {
+	padding-top: 50px;
+	width: 100%;
+	height: 100%;
+}
+
+a {
 	cursor: pointer;
 }
 
 p {
 	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
 }
 
-body {
-	height: 100%;
-	width: 100%;
-	padding-top: 100px;
-}
-
-.navbar-default {
-	background-color: #FFF;
+h1, h2, h3, h4, h5, h6 {
 	font-family: 'Montserrat', sans-serif;
-	padding: 10px 0;
+	text-transform: uppercase;
+	color: #639016;
+	text-align: center;
+}
+
+.navbar {
+	background-color: #FFF;
+	padding: 10px;
 	border: none;
 	box-shadow: 0 5px 8px rgba(0,0,0,0.1);
 	.navbar-brand {
-		color: @brand-color;
+		font-family: 'Montserrat', sans-serif;
+		color: #639016;
+		vertical-align: middle;
 	}
 	.navbar-nav {
 		li {
 			a {
-				color: @brand-color;
+				font-family: 'Open Sans', sans-serif;
+				color: #000;
+				i {
+					color: #639016;
+					margin: 0 -10px;
+				}
 			}
 		}
 	}
+}
+
+.navbar-default .navbar-nav > .active > a {
+	color: #639016;
+}
+
+.container {
+	display: block;
+	margin: 0 auto;
+	max-width: 70%;
+}
+
+.banner-image {
+	background-color: #639016;
+	background: url(/images/network.png) no-repeat 0 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	width: 100%;
+	height: 100%;
+	opacity: .8;
+}
+
+section {
+	padding: 50px 0;
+	p {
+		text-align: center;
+	}
+	.row {
+		margin: 30px 0;
+	}
+}
+
+.accent {
+	background-color: #D8E9BC;
+}
+
+.logo {
+	display: block;
+	margin: 0 auto;
+	max-width: 400px;
+}
+
+iframe {
+	display: block;
+	margin: 0 auto;
 }
