@@ -1,5 +1,5 @@
 prose:
-  rooturl: '/render'
+  rooturl: '/src/render'
   siteurl: 'http://keikreutler.github.io/'
   media: 'media'
   ignore:
