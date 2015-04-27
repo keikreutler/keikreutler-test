@@ -27,7 +27,7 @@ published: true
 	</div>
 </section>
 
-<section id="description" class="accent">
+<section id="description" class="accent-light">
 	<div class="container">
 		<iframe width="640" height="360" src="https://www.youtube.com/embed/O3t2MRB-rn8" frameborder="0" allowfullscreen></iframe>
 		<div class="row">
@@ -83,7 +83,7 @@ published: true
 			The BIOS
 		</h1>
 		<p>
-			TimeMapper
+			Insert text and images
 		</p>
 	</div>
 </section>
@@ -91,7 +91,7 @@ published: true
 <section>
 	<div class="container">
 		<h1>
-			Get in Touch
+			Ways of Communicating
 		</h1>
 		<p>
 			Email, medium, discourse
