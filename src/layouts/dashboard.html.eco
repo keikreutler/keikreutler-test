@@ -33,7 +33,7 @@
 	<%- @getBlock('styles').add(@site.styles).toHTML() %>
 </head>
 <body>
-	<!-- Menu -->
+		<!-- Menu -->
 	<div class="navbar navbar-default navbar-fixed-top">
 		<div class="container">
 			<div class="navbar-header">
@@ -46,6 +46,9 @@
 			</div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav navbar-right">
+					<li>
+						<a href="/#current-activites">Current Activities</a>
+					</li>
 					<% for document in @getCollection('pages').toJSON(): %>
 						<li
 							typeof="sioc:Page"
@@ -82,11 +85,19 @@
 
 	<!-- Footer -->
 	<footer>
-
+		License
 	</footer>
 
 
 	<!-- Scripts -->
-	<%- @getBlock('scripts').add(@site.scripts).toHTML() %>
+	<script defer="defer" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script defer="defer" src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+	<script defer="defer" src="/vendor/twitter-bootstrap/dist/js/bootstrap.min.js"></script>
+	<script defer="defer" src="/scripts/gcal-flow.js"></script>
+	<script defer="defer" src="/scripts/calendar.js"></script>
+	<script defer="defer" src="/scripts/script.js"></script>
+	<script defer="defer" src="/scripts/animate.js"></script>
+
+
 </body>
 </html>

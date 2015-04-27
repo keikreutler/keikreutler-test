@@ -47,7 +47,7 @@
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav navbar-right">
 					<li>
-						<a href="#current-activites">Current Activities</a>
+						<a href="/#current-activites">Current Activities</a>
 					</li>
 					<% for document in @getCollection('pages').toJSON(): %>
 						<li
@@ -90,12 +90,27 @@
 
 	<!-- Footer -->
 	<footer>
-
+		License
 	</footer>
 
 
 	<!-- Scripts -->
-	<%- @getBlock('scripts').add(@site.scripts).toHTML() %>
+	<script defer="defer" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script defer="defer" src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+	<script defer="defer" src="/vendor/twitter-bootstrap/dist/js/bootstrap.min.js"></script>
+	<script defer="defer" src="/scripts/gcal-flow.js"></script>
+	<script defer="defer" src="/scripts/calendar.js"></script>
+	<script defer="defer" src="/scripts/script.js"></script>
+	<script defer="defer" src="/scripts/animate.js"></script>
+
+    <!-- MapBox -->
+    <script src="//api.tiles.mapbox.com/mapbox.js/v2.0.1/mapbox.js" type="text/javascript"></script>
+    <script>
+        L.mapbox.accessToken = 'pk.eyJ1IjoiZ2FtZXJhIiwiYSI6IjNlclVnZDAifQ.a8PjkEfE5i2aOShPawCy1A';
+        var map = L.mapbox.map('map', 'keikreutler.jil3me86').setView([44.465, 14.238], 4);
+
+        map.scrollWheelZoom.disable();
+    </script>
 
 </body>
 </html>

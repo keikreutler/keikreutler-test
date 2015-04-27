@@ -49,7 +49,9 @@ docpadConfig = {
 				"/styles/twitter-bootstrap.css"
 				"/styles/animations.css"
 				"/styles/calendar.css"
+				"//api.tiles.mapbox.com/mapbox.js/v2.0.1/mapbox.css"
 				"/styles/style.css"
+
 
 
 			]

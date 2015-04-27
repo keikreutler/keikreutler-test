@@ -27,21 +27,17 @@ published: true
 	</div>
 </section>
 
-<section id="description" class="accent-light">
+<section id="description" class="accent">
 	<div class="container">
 		<iframe width="640" height="360" src="https://www.youtube.com/embed/O3t2MRB-rn8" frameborder="0" allowfullscreen></iframe>
-		<div class="row">
-			<div class="col-sm-8 col-sm-offset-2">
-				<p>
-					<%- @partial('description-unmonastery') %>
-				</p>
-			</div>
-		</div>
 	</div>
 </section>
 
 <section id="about">
 	<div class="container">
+				<p>
+					<%- @partial('description-unmonastery') %>
+				</p>
 		<div>
 			<h3 class="animated">The Idea</h3>
 			<div class="hide-desc">
@@ -81,13 +77,13 @@ published: true
 	</div>
 </section>
 
-<section>
-	<div class="container">
-		<div>
-			Map embed and link to dashbaords
-		</div>
+<div id="map">
+	<div id="map-legend">
+		<i class="fa fa-circle color-darker"></i> Established<br>
+		<i class="fa fa-circle color-primary"></i> In progress<br>
+		<i class="fa fa-circle color-lighter"></i> Suggested<br>
 	</div>
-</section>
+</div>
 
 
 <section>
@@ -98,24 +94,24 @@ published: true
 	</div>
 </section>
 
-<section>
+<section id="the-unmonastery-bios" class="accent">
 	<div class="container">
-		<h1>
-			The unWanderings
-		</h1>
+		<a href="/bios">
+			<img src="/images/unmon_cards.png">
+			<h1>
+				The unMonastery BIOS
+			</h1>
+		</a>
 		<p>
-			TimeMapper
+			<%- @partial('bios-about') %>
 		</p>
 	</div>
 </section>
 
 <section>
 	<div class="container">
-		<h1>
-			The BIOS
-		</h1>
 		<p>
-			Insert text and images
+			The unWanderings - TimeMapper embed
 		</p>
 	</div>
 </section>
@@ -131,10 +127,14 @@ published: true
 	</div>
 </section>
 
-<section>
+
+<section class="accent-light">
 	<div class="container">
+		<h1>
+			Support
+		</h1>
 		<p>
-			Footer with license
+			Faircoin, wishlist, etc.
 		</p>
 	</div>
 </section>
