@@ -47,19 +47,19 @@ docpadConfig = {
 				"/scripts/fullcalendar/fullcalendar.min.css"
 				"/scripts/fullcalendar/fullcalendar.print.css"
 				"/styles/twitter-bootstrap.css"
+				"/styles/calendar.css"
 				"/styles/style.css"
+
 
 			]
 			# Scripts
 			scripts: [
 				"//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"
 				"//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"
-				"/scripts/gcal.js"
-				"/scripts/fullcalendar/lib/moment.min.js"
-				"//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.3.1/fullcalendar.min.js"
 				"/vendor/twitter-bootstrap/dist/js/bootstrap.min.js"
-				"/scripts/script.js"
+				"/scripts/gcal-flow.js"
 				"/scripts/calendar.js"
+				"/scripts/script.js"
 			]
 
 

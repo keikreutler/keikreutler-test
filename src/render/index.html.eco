@@ -18,11 +18,11 @@ published: true
 <a name="current-activites"></a>
 <section>
 	<div class="container">
-		<h2>Current Activities</h2>
 		<div class="col-sm-8 current-activities">
 			<%- @partial('current-activities') %>
 		</div>
-		<div class="col-sm-4" id="calendar">
+		<div class="col-sm-4">
+          <div id="gcf-simple"></div>
 		</div>
 	</div>
 </section>
@@ -49,14 +49,60 @@ published: true
 	<h3>The Equipment</h3>
 </section>
 
-<script type='text/javascript'>
+<section>
+	<div class="container">
+		<p>
+			Map embed and link to dashbaords
+		</p>
+	</div>
+</section>
 
-$(document).ready(function() {
-    $('#calendar').fullCalendar({
-        googleCalendarApiKey: 'AIzaSyCW11B9Hojmerk-vFKY08I0mf_g_CQAx6Y',
-        events: {
-            googleCalendarId: ' 74ul0d0i6oc3mp8g2e0o0h28sc@group.calendar.google.com',
-        }
-    });
-});
-</script>
+
+<section>
+	<div class="container">
+		<p>
+			UI of revelant scriptorium crawling - links to folders on the google drive, the scriptorium, discourse, medium, people
+		</p>
+	</div>
+</section>
+
+<section>
+	<div class="container">
+		<h1>
+			The unWanderings
+		</h1>
+		<p>
+			TimeMapper
+		</p>
+	</div>
+</section>
+
+<section>
+	<div class="container">
+		<h1>
+			The BIOS
+		</h1>
+		<p>
+			TimeMapper
+		</p>
+	</div>
+</section>
+
+<section>
+	<div class="container">
+		<h1>
+			Get in Touch
+		</h1>
+		<p>
+			Email, medium, discourse
+		</p>
+	</div>
+</section>
+
+<section>
+	<div class="container">
+		<p>
+			Footer with license
+		</p>
+	</div>
+</section>
