@@ -47,6 +47,7 @@ docpadConfig = {
 				"/scripts/fullcalendar/fullcalendar.min.css"
 				"/scripts/fullcalendar/fullcalendar.print.css"
 				"/styles/twitter-bootstrap.css"
+				"/styles/animations.css"
 				"/styles/calendar.css"
 				"/styles/style.css"
 
@@ -60,6 +61,7 @@ docpadConfig = {
 				"/scripts/gcal-flow.js"
 				"/scripts/calendar.js"
 				"/scripts/script.js"
+				"/scripts/animate.js"
 			]
 
 

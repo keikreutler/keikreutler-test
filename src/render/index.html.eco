@@ -40,20 +40,52 @@ published: true
 	</div>
 </section>
 
-<section>
-	<h3>The Idea</h3>
-	<h3>The Place</h3>
-	<h3>The People</h3>
-	<h3>The Work</h3>
-	<h3>The Culture</h3>
-	<h3>The Equipment</h3>
+<section id="about">
+	<div class="container">
+		<div>
+			<h3 class="animated">The Idea</h3>
+			<div class="hide-desc">
+				<%- @partial('sh-the-idea') %>
+			</div>
+		</div>
+		<div>
+			<h3 class="animated">The Place</h3>
+			<div class="hide-desc">
+				<%- @partial('sh-the-place') %>
+			</div>
+		</div>
+		<div>
+			<h3 class="animated">The People</h3>
+			<div class="hide-desc">
+				<%- @partial('sh-the-people') %>
+			</div>
+		</div>
+		<div>
+			<h3 class="animated">The Work</h3>
+			<div class="hide-desc">
+				<%- @partial('sh-the-work') %>
+			</div>
+		</div>
+		<div>
+			<h3 class="animated">The Culture</h3>
+			<div class="hide-desc">
+				<%- @partial('sh-the-culture') %>
+			</div>
+		</div>
+		<div>
+			<h3 class="animated">The Equipment</h3>
+			<div class="hide-desc">
+				<%- @partial('sh-the-equipment') %>
+			</div>
+		</div>
+	</div>
 </section>
 
 <section>
 	<div class="container">
-		<p>
+		<div>
 			Map embed and link to dashbaords
-		</p>
+		</div>
 	</div>
 </section>
 
