@@ -86,12 +86,8 @@ published: true
 </div>
 
 
-<section>
-	<div class="container">
-		<p>
-			UI of revelant scriptorium crawling - links to folders on the google drive, the scriptorium, discourse, medium, people
-		</p>
-	</div>
+<section id="library">
+		<iframe src="https://embed.coggle.it/diagram/5464b47cad39e3eb4a47b39c/7929c3a054c42b576f27d33277fa64545088a6a82f3c798e56857ec13907b17b" allowfullscreen="" frameborder="0" height="480" width="100%"></iframe>
 </section>
 
 <section id="the-unmonastery-bios" class="accent">
