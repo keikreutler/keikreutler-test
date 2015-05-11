@@ -86,10 +86,6 @@ published: true
 </div>
 
 
-<section id="library">
-		<iframe src="https://embed.coggle.it/diagram/5464b47cad39e3eb4a47b39c/7929c3a054c42b576f27d33277fa64545088a6a82f3c798e56857ec13907b17b" allowfullscreen="" frameborder="0" height="480" width="100%"></iframe>
-</section>
-
 <section id="the-unmonastery-bios" class="accent">
 	<div class="container">
 		<a href="/bios">
@@ -104,33 +100,65 @@ published: true
 	</div>
 </section>
 
-<section>
-	<div class="container">
-		<p>
-			The unWanderings - TimeMapper embed
-		</p>
-	</div>
-</section>
-
-<section>
+<section id="ways-of-communicating" class="accent-light">
 	<div class="container">
 		<h1>
 			Ways of Communicating
 		</h1>
 		<p>
-			Email, medium, discourse
+			The unMonastery is a strange beast — manifesting itself through conversations, small gatherings, a full blown prototype, scoping exercises and conference presentations, it has found itself with a constantly fluctuating level of supporters, participants and dedicated unMonasterians. Like shifting tectonic plates, opportunity for critical convergence often leads to large volcanoes of activity, which dissipate and move on over time. For ways to connect with a project that has a constantly shifting centre of gravity, please participate in any of our various communication channels.
 		</p>
+		<div class="row">
+			<div class="col-sm-2 col-sm-offset-1">
+				<a href="//discourse.unmonastery.org" target="blank">
+					<i class="fa fa-rss fa-4x"></i>
+				</a>
+			</div>
+			<div class="col-sm-2">
+				<a href="//medium.com/@unmonastery" target="blank">
+					<i class="fa fa-medium fa-4x"></i>
+				</a>
+			</div>
+			<div class="col-sm-2">
+				<a href="mailto:bios@unmonastery.org" target="blank">
+					<i class="fa fa-envelope fa-4x"></i>
+
+				</a>
+			</div>
+			<div class="col-sm-2">
+				<a href="//twitter.com/unmonastery" target="blank">
+					<i class="fa fa-twitter fa-4x"></i>
+				</a>
+			</div>
+			<div class="col-sm-2">
+				<a href="//facebook.com/unmonastery" target="blank">
+					<i class="fa fa-facebook fa-4x"></i>
+				</a>
+			</div>
+		</div>
 	</div>
 </section>
 
-
-<section class="accent-light">
-	<div class="container">
-		<h1>
-			Support
-		</h1>
-		<p>
-			Faircoin, wishlist, etc.
-		</p>
+<section id="support">
+	<div class="container faircoin">
+		<h2>Support</h2>
+		<a href="http://fair-coin.org/" target="_blank">
+			<img src="/images/faircoin.png">
+		</a>
+		<script src="https://getfaircoin.net/widget/widget/coin.js"></script>
+		<script>
+		CoinWidgetCom.go({
+			wallet_address: "fJEcZQWjyKkXQ5AfznWouBEkq5jDDEdwH3"
+			, currency: "faircoin"
+			, counter: "count"
+			, alignment: "bl"
+			, qrcode: true
+			, auto_show: false
+			, lbl_button: "Donate Faircoin"
+			, lbl_address: "unMonastery Faircoin Address:"
+			, lbl_count: "donations"
+			, lbl_amount: "FAIR"
+		});
+		</script>
 	</div>
-</section>
+</div>

@@ -5,4 +5,4 @@ tags: ['page']
 pageOrder: 3
 ---
 
-This is a **page**
+<%- @partial('participate-text') %>
