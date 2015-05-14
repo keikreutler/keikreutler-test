@@ -81,11 +81,9 @@
 	</div>
 
 	<!-- Content -->
-	<div class="container">
 		<section id="content" class="content">
 			<%- @content %>
 		</section>
-	</div>
 
 	<!-- Footer -->
 	<footer>

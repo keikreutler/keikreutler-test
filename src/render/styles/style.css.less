@@ -36,7 +36,7 @@ a:hover, a:active, a:visited {
 
 p {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 18px;
+	font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -63,10 +63,20 @@ footer {
 	padding: 10px;
 	border: none;
 	box-shadow: 0 5px 8px rgba(0,0,0,0.1);
+	img {
+		position: absolute;
+		top: 15px;
+		margin-right: 55px;
+		display: inline;
+		float: left;
+	}
 	.navbar-brand {
 		font-family: 'Montserrat', sans-serif;
 		color: #639016;
 		vertical-align: middle;
+		a:hover {
+			color: #639016;
+		}
 	}
 	.navbar-nav {
 		li {
@@ -78,12 +88,15 @@ footer {
 					margin: 0 -10px;
 				}
 			}
+			a:hover {
+				color: #639016;
+			}
 		}
 	}
 }
-
 .navbar-default .navbar-nav > .active > a {
-	color: #639016;
+	background: #89b63c;
+	color: #FFFFFF;
 }
 
 .container {
@@ -94,7 +107,17 @@ footer {
 
 .banner-image {
 	background-color: #639016;
-	background: url(/images/network.png) no-repeat 0 0;
+	background: url(/images/MateraUnMonCover.jpg) no-repeat 0 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+.participate-image {
+	background-color: #639016;
+	background: url(/images/participate.png) no-repeat 0 0;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -139,45 +162,8 @@ iframe {
 	margin: 0 auto;
 }
 
-.current-activities {
-	h4 {
-		margin-top: 30px;
-		text-align: left;
-	}
-	p {
-		font-size: 14px;
-		text-align: left;
-	}
-}
-
-#the-unmonastery-bios {
-	img {
-		display: block;
-		margin: 0 auto;
-		max-width: 80%;
-	}
-}
-
-.faircoin {
-	text-align: center;
-	img {
-		display: block:
-		margin: 0 auto;
-		margin-top: 30px;
-		margin-bottom: 20px;
-	}
-}
-
-.COINWIDGETCOM_CONTAINER {
-	text-align: center;
-	width: 20%;
-	display: block;
-	margin: 0 40%;
-	margin-bottom: 70px;
-}
-
 /*****************
-Dashboard
+Sections
 *****************/
 #ways-of-communicating {
 	.row {
@@ -190,6 +176,123 @@ Dashboard
 	i {
 		text-align: center;
 	}
+}
+.current-activities {
+	h4 {
+		margin-top: 30px;
+		text-align: left;
+	}
+	p {
+		font-size: 14px;
+		text-align: left;
+	}
+}
+#participate {
+	.container {
+		width: 70%;
+	}
+	#participate-form {
+		margin-top: 50px;
+	}
+	img {
+		display: block;
+		margin: 0 auto 75px auto;
+		max-width: 75px;
+	}
+}
+#the-unmonastery-bios {
+	img {
+		display: block;
+		margin: 0 auto;
+		max-width: 80%;
+	}
+}
+.faircoin {
+	text-align: center;
+	img {
+		display: block:
+		margin: 0 auto;
+		margin-top: 30px;
+		margin-bottom: 20px;
+	}
+}
+.COINWIDGETCOM_CONTAINER {
+	text-align: center;
+	width: 20%;
+	display: block;
+	margin: 0 40%;
+	margin-bottom: 70px;
+}
+/*****************
+Modals
+*****************/
+.modal {
+    min-height: 100vh;
+    min-width: 100vw;
+	.modal-content {
+	    border-radius: 0;
+	    background-clip: border-box;
+	    -webkit-box-shadow: none;
+	    box-shadow: none;
+	    border: none;
+	    min-width: 100vw;
+	    min-height: 100vh;
+	    padding: 25px 0;
+	    text-align: left;
+		h2 {
+	    	margin: 0;
+	    	font-size: 3em;
+		}
+		img {
+			max-height: 400px;
+			max-width: 600px;
+			display: block;
+			margin: 30px auto;
+		}
+		.item-details {
+			margin: 30px 0;
+		}
+	}
+    .close-modal {
+        position: absolute;
+        width:75px;
+        height:75px;
+        background-color:transparent;
+        top: 25px;
+        right: 25px;
+        cursor: pointer;
+        &:hover {
+            opacity: 0.3;
+        }
+        .lr {
+            height:75px;
+            width:1px;
+            margin-left:35px;
+            background-color:@brand-primary;
+            transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            /* IE 9 */
+            -webkit-transform: rotate(45deg);
+            /* Safari and Chrome */
+            z-index:1051;
+            .rl {
+                height:75px;
+                width:1px;
+                background-color:@brand-primary;
+                transform: rotate(90deg);
+                -ms-transform: rotate(90deg);
+                /* IE 9 */
+                -webkit-transform: rotate(90deg);
+                /* Safari and Chrome */
+                z-index:1052;
+            }
+        }
+    }
+    .bios-stage {
+    	p {
+    		font-size: 14px;
+    	}
+    }
 }
 /*****************
 Dashboard

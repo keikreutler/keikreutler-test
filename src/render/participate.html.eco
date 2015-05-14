@@ -5,4 +5,10 @@ tags: ['page']
 pageOrder: 3
 ---
 
-<%- @partial('participate-text') %>
+
+<section id="participate">
+	<div class="container">
+	<%- @partial('participate-text') %>
+	</div>
+	
+</section>

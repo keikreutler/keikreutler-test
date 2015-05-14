@@ -64,6 +64,7 @@ docpadConfig = {
 				"/scripts/calendar.js"
 				"/scripts/script.js"
 				"/scripts/animate.js"
+				"/scripts/participate.js"
 			]
 
 
