@@ -77,9 +77,6 @@
 		</div>
 	</div>
 
-	<div class="banner-image">
-	</div>
-
 	<!-- Content -->
 		<div id="content" class="content">
 			<%- @content %>

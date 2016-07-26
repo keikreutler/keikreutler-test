@@ -3,6 +3,16 @@ layout: home
 published: true
 ---
 
+<iframe src="https://metamaps.cc/maps/1916" id="metamap" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+<h3>
+	<a href="/#social-clinic">
+		<i class="fa fa-fw fa-angle-down fa-2x"></i>
+	</a>
+	<a name="social-clinic"></a>
+
+</h3>
+
 <section>
 	<div class="container">
 		<p>
