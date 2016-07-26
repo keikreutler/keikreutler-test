@@ -52,7 +52,7 @@
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav navbar-right">
 					<li>
-						<a href="/#current-activites">Gatherings</a>
+						<a href="/#gatherings">Gatherings</a>
 					</li>
 					<li>
 						<a href="//unmonastery.org/testlabs">Testlabs</a>

@@ -15,24 +15,6 @@ published: true
 	<img src="images/logo_md.png" class="img-responsive logo">
 </section>
 
-<a name="current-activites"></a>
-<section>
-	<div class="container">
-		<div class="col-sm-8 current-activities">
-			<%- @partial('current-activities') %>
-		</div>
-		<div class="col-sm-4">
-          <!--<div id="gcf-simple"></div>-->
-		</div>
-	</div>
-</section>
-
-<section id="description" class="accent">
-	<div class="container">
-		<iframe width="640" height="360" src="https://www.youtube.com/embed/O3t2MRB-rn8" frameborder="0" allowfullscreen></iframe>
-	</div>
-</section>
-
 <section id="about">
 	<div class="container">
 				<p>
@@ -77,6 +59,47 @@ published: true
 	</div>
 </section>
 
+<section class="accent-light">
+	<div class="container">
+		<a href="/testlabs">
+			<h1>
+				unMonastery Testlabs
+			</h1>
+		</a>
+		<p>
+			<%- @partial('text-testlabs') %>
+		</p>
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+				<h3>
+					Kokkinopilos, Mount Olympus
+				</h3>
+				<p>
+					Text
+				</p>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+				<h3>
+					Mount Lebanon, New York
+				</h3>
+				<p>
+					Text
+				</p>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+				<h3>
+					The Invisible
+				</h3>
+				<p>
+					Text
+				</p>
+			</div>
+		</div>
+
+	</div>
+</section>
+
+
 <div id="map">
 	<div id="map-legend">
 		<i class="fa fa-circle color-darker"></i> Established<br>
@@ -84,6 +107,19 @@ published: true
 		<i class="fa fa-circle color-lighter"></i> Suggested<br>
 	</div>
 </div>
+
+
+<a name="gatherings"></a>
+<section>
+	<div class="container">
+		<div class="col-sm-8 current-activities">
+			<%- @partial('text-gatherings') %>
+		</div>
+		<div class="col-sm-4">
+          <div id="gcf-simple"></div>
+		</div>
+	</div>
+</section>
 
 
 <section id="the-unmonastery-bios" class="accent">
@@ -95,7 +131,20 @@ published: true
 			</h1>
 		</a>
 		<p>
-			<%- @partial('bios-about') %>
+			<%- @partial('text-bios') %>
+		</p>
+	</div>
+</section>
+
+<section>
+	<div class="container">
+			<img src="/images/mazi.jpg">
+			<h2>
+				Local Wireless Networks
+			</h2>
+		</a>
+		<p>
+			<%- @partial('text-mazi') %>
 		</p>
 	</div>
 </section>
@@ -111,28 +160,28 @@ published: true
 		<div class="row">
 			<div class="col-sm-2 col-sm-offset-1">
 				<a href="//discourse.unmonastery.org" target="blank">
-					<i class="fa fa-rss fa-4x"></i>
+					<i class="fa fa-rss fa-3x"></i>
 				</a>
 			</div>
 			<div class="col-sm-2">
 				<a href="//medium.com/@unmonastery" target="blank">
-					<i class="fa fa-medium fa-4x"></i>
+					<i class="fa fa-medium fa-3x"></i>
 				</a>
 			</div>
 			<div class="col-sm-2">
 				<a href="mailto:bios@unmonastery.org" target="blank">
-					<i class="fa fa-envelope fa-4x"></i>
+					<i class="fa fa-envelope fa-3x"></i>
 
 				</a>
 			</div>
 			<div class="col-sm-2">
 				<a href="//twitter.com/unmonastery" target="blank">
-					<i class="fa fa-twitter fa-4x"></i>
+					<i class="fa fa-twitter fa-3x"></i>
 				</a>
 			</div>
 			<div class="col-sm-2">
 				<a href="//facebook.com/unmonastery" target="blank">
-					<i class="fa fa-facebook fa-4x"></i>
+					<i class="fa fa-facebook fa-3x"></i>
 				</a>
 			</div>
 		</div>
@@ -140,25 +189,7 @@ published: true
 </section>
 
 <section id="support">
-	<div class="container faircoin">
+	<div class="container">
 		<h2>Support</h2>
-		<a href="http://fair-coin.org/" target="_blank">
-			<img src="/images/faircoin.png">
-		</a>
-		<!--<script src="https://getfaircoin.net/widget/widget/coin.js"></script>
-		<script>
-		CoinWidgetCom.go({
-			wallet_address: "fJEcZQWjyKkXQ5AfznWouBEkq5jDDEdwH3"
-			, currency: "faircoin"
-			, counter: "count"
-			, alignment: "bl"
-			, qrcode: true
-			, auto_show: false
-			, lbl_button: "Donate Faircoin"
-			, lbl_address: "unMonastery Faircoin Address:"
-			, lbl_count: "donations"
-			, lbl_amount: "FAIR"
-		});
-		</script>-->
 	</div>
 </div>

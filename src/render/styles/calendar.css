@@ -41,11 +41,12 @@
     position: relative;
     overflow: hidden;
     overflow-y: auto;
-    height: 90%;
+    height: 100%;
 }
 .gCalFlow .gcf-item-block {
     position: relative;
     overflow: hidden;
+    height: auto;
     border-bottom: 1px solid #ccc;
     padding: 10px;
 }
@@ -67,7 +68,7 @@
   .gCalFlow .gcf-item-body-block {
       font-size: 80%;
       font-color: #F0F0F0;
-      max-height: 2.45em;
+      max-height: 100%;
   }
   .gCalFlow .gcf-item-location {
       color: #333;
