@@ -1,8 +1,8 @@
 ---
-title: BIOS
+title: Testlabs
 layout: default
 tags: ['page']
-pageOrder: 2
+pageOrder: 1
 ---
 
 <section id="bios">

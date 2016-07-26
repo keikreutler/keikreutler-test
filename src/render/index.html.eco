@@ -105,6 +105,7 @@ published: true
 		<i class="fa fa-circle color-darker"></i> Established<br>
 		<i class="fa fa-circle color-primary"></i> In progress<br>
 		<i class="fa fa-circle color-lighter"></i> Suggested<br>
+		<i class="fa fa-circle color-dormant"></i> Dormant<br>
 	</div>
 </div>
 
@@ -136,7 +137,7 @@ published: true
 	</div>
 </section>
 
-<section>
+<section id="mazi">
 	<div class="container">
 			<img src="/images/mazi.jpg">
 			<h2>
@@ -160,28 +161,28 @@ published: true
 		<div class="row">
 			<div class="col-sm-2 col-sm-offset-1">
 				<a href="//discourse.unmonastery.org" target="blank">
-					<i class="fa fa-rss fa-3x"></i>
+					<i class="fa fa-rss fa-2x"></i>
 				</a>
 			</div>
 			<div class="col-sm-2">
 				<a href="//medium.com/@unmonastery" target="blank">
-					<i class="fa fa-medium fa-3x"></i>
+					<i class="fa fa-medium fa-2x"></i>
 				</a>
 			</div>
 			<div class="col-sm-2">
 				<a href="mailto:bios@unmonastery.org" target="blank">
-					<i class="fa fa-envelope fa-3x"></i>
+					<i class="fa fa-envelope fa-2x"></i>
 
 				</a>
 			</div>
 			<div class="col-sm-2">
 				<a href="//twitter.com/unmonastery" target="blank">
-					<i class="fa fa-twitter fa-3x"></i>
+					<i class="fa fa-twitter fa-2x"></i>
 				</a>
 			</div>
 			<div class="col-sm-2">
 				<a href="//facebook.com/unmonastery" target="blank">
-					<i class="fa fa-facebook fa-3x"></i>
+					<i class="fa fa-facebook fa-2x"></i>
 				</a>
 			</div>
 		</div>

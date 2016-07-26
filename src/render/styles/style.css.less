@@ -52,7 +52,7 @@ h3,h4,h5,h6 {
 footer {
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
-	background-color: @brand-primary;
+	background-color: @brand-medium;
 	color: #FFF;
 	text-align: center;
 	padding: 15px 0;
@@ -101,6 +101,14 @@ footer {
 .navbar-default .navbar-nav > .active > a {
 	background: #89b63c;
 	color: #FFFFFF;
+}
+
+.nav > li.nav-social-media {
+	padding-left: 10px;
+}
+.nav > li.nav-social-media > a {
+	display: inline-block;
+	padding: 15px;
 }
 
 .container {
@@ -199,6 +207,7 @@ Sections
 	}
 	i {
 		text-align: center;
+		color: #555;
 	}
 }
 .current-activities {
@@ -229,6 +238,11 @@ Sections
 		display: block;
 		margin: 0 auto;
 		max-width: 80%;
+	}
+}
+#mazi {
+	h1,h2,h3,h4,h5,h6 {
+		color: #555;
 	}
 }
 .faircoin {
@@ -430,6 +444,60 @@ Map, using MapBox
 	color: @brand-lighter;
 }
 
+
+.color-dormant {
+	color: #6c6c6c;
+}
+
 #library {
 	padding: 0;
+}
+
+/****************
+Navbar collapse on medium screen width
+****************/
+
+@media (max-width: 1191px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+}
+
+@media (max-width: 1191px) {
+	.container {
+		max-width: 90%;
+		width: 90%;
+	}
 }

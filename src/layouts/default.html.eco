@@ -42,12 +42,17 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="/">unMonastery</a>
+
+				<a href="/">
+					<!--unMonastery-->
+					<img src="/images/logo_sm.png">
+				</a>
+
 			</div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav navbar-right">
 					<li>
-						<a href="/#current-activites">Current Activities</a>
+						<a href="/#gatherings">Gatherings</a>
 					</li>
 					<% for document in @getCollection('pages').toJSON(): %>
 						<li
@@ -60,19 +65,11 @@
 							</a>
 						</li>
 					<% end %>
-					<li>
+					<li class="nav-social-media">
 						<a href="//twitter.com/unmonastery" target="_blank"><i class="fa fa-fw fa-twitter"></i></a>
-					</li>
-					<li>
 						<a href="//vimeo.com/unmonastery" target="_blank"><i class="fa fa-fw fa-vimeo-square"></i></a>
-					</li>
-					<li>
 						<a href="//trello.com/unmonastery" target="_blank"><i class="fa fa-fw fa-trello"></i></a>
-					</li>
-					<li>
 						<a href="//github.com/unmonastery" target="_blank"><i class="fa fa-fw fa-github"></i></a>
-					</li>
-					<li>
 						<a href="//facebook.com/unmonastery" target="_blank"><i class="fa fa-fw fa-facebook"></i></a>
 					</li>
 				</ul>
@@ -81,21 +78,20 @@
 	</div>
 
 	<!-- Content -->
-		<section id="content" class="content">
+		<div id="content" class="content">
 			<%- @content %>
-		</section>
+		</div>
 
 	<!-- Footer -->
 	<footer>
 		License
 	</footer>
 
+
 	<!-- Scripts -->
 	<script defer="defer" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script defer="defer" src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
 	<script defer="defer" src="/vendor/twitter-bootstrap/dist/js/bootstrap.min.js"></script>
-	<script defer="defer" src="/scripts/gcal-flow.js"></script>
-	<script defer="defer" src="/scripts/calendar.js"></script>
 	<script defer="defer" src="/scripts/script.js"></script>
 	<script defer="defer" src="/scripts/animate.js"></script>
 
