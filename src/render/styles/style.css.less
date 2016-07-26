@@ -178,8 +178,7 @@ section {
 
 .accent-light {
 	background-color: #f4f9ec;
-	background-image: url("https://www.transparenttextures.com/patterns/french-stucco.png");
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+	background-image: url("/images/texture_stucco.png");
 }
 
 .logo {
@@ -244,6 +243,12 @@ Sections
 	h1,h2,h3,h4,h5,h6 {
 		color: #555;
 	}
+}
+#donate, #donate h5 {
+	text-align: left;
+}
+#license, #license h5 {
+	text-align: right;
 }
 .faircoin {
 	text-align: center;
@@ -499,5 +504,11 @@ Navbar collapse on medium screen width
 	.container {
 		max-width: 90%;
 		width: 90%;
+	}
+}
+
+@media (max-width: 798px) {
+	h1,h2 {
+		font-size: 210%;
 	}
 }

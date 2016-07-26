@@ -86,8 +86,22 @@
 		</div>
 
 	<!-- Footer -->
+
 	<footer>
-		License
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" id="donate">
+					<h5>Ways to Donate</h5>
+					<a href="http://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CHZEWNY77F6UQ">PayPal</a><br> 
+					<a href="http://www.amazon.it/wishlist/9O61NKU2KQK8">Amazon Wishlist</a>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" id="license">
+					<h5>Creative Commons License</h5>
+					All content CC-BY-SA<br> 
+					<a href="http://github.com/unmonastery/unmonastery.org">Fork on Github</a>
+				</div>
+			</div>
+		</div>
 	</footer>
 
 
