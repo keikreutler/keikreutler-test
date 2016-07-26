@@ -20,7 +20,7 @@ html {
 }
 
 body {
-	padding-top: 0px;
+	padding-top: 70px;
 	width: 100%;
 	height: 100%;
 }
@@ -195,8 +195,31 @@ iframe {
 
 #metamap {
 	width: 100vw;
-	height: 50vh;
-	margin-top: 70px;
+	height: 65vh;
+}
+
+.mask {
+    height: 300px;
+    width: 300px;
+    border-radius:100%;
+    display: block;
+    margin: auto;
+    overflow: hidden;
+    z-index: 1;
+    margin: 25px auto;
+    .mask-image {
+        left:-50%;
+        right:-50%;
+        top:    0;
+        height: 100%;
+        margin: auto;
+        padding: 0;
+        width:  auto;
+        z-index: 0;
+    }
+    img.mask-image {
+        opacity: 1;
+    }
 }
 
 

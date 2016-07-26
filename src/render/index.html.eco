@@ -3,6 +3,7 @@ layout: home
 published: true
 ---
 
+
 <iframe src="https://metamaps.cc/maps/1916" id="metamap" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
 <h3>
@@ -149,11 +150,10 @@ published: true
 
 <section id="mazi">
 	<div class="container">
-			<img src="/images/mazi.jpg">
-			<h2>
-				Local Wireless Networks
-			</h2>
-		</a>
+		<img src="/images/mazi.jpg">
+		<div class="mask">
+			<img class="mask-image" src="/images/mazi_deptford.jpg">
+		</div>
 		<p>
 			<%- @partial('text-mazi') %>
 		</p>
