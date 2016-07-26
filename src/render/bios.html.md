@@ -1,6 +1,6 @@
 ---
 title: BIOS
-layout: default
+layout: home
 tags: ['page']
 pageOrder: 2
 ---

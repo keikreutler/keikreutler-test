@@ -6,13 +6,13 @@ published: true
 <section>
 	<div class="container">
 		<p>
-		<%- @partial('opening-quote') %>
+		<%- @partial('quote-social-clinic') %>
 		</p>
 	</div>
 </section>
 
-<section class="accent">
-	<img src="images/logo.png" class="img-responsive logo">
+<section class="accent-texture">
+	<img src="images/logo_md.png" class="img-responsive logo">
 </section>
 
 <a name="current-activites"></a>
@@ -22,7 +22,7 @@ published: true
 			<%- @partial('current-activities') %>
 		</div>
 		<div class="col-sm-4">
-          <div id="gcf-simple"></div>
+          <!--<div id="gcf-simple"></div>-->
 		</div>
 	</div>
 </section>
@@ -36,7 +36,7 @@ published: true
 <section id="about">
 	<div class="container">
 				<p>
-					<%- @partial('description-unmonastery') %>
+					<%- @partial('quote-work-meaning') %>
 				</p>
 		<div>
 			<h3 class="animated">The Idea</h3>
@@ -145,7 +145,7 @@ published: true
 		<a href="http://fair-coin.org/" target="_blank">
 			<img src="/images/faircoin.png">
 		</a>
-		<script src="https://getfaircoin.net/widget/widget/coin.js"></script>
+		<!--<script src="https://getfaircoin.net/widget/widget/coin.js"></script>
 		<script>
 		CoinWidgetCom.go({
 			wallet_address: "fJEcZQWjyKkXQ5AfznWouBEkq5jDDEdwH3"
@@ -159,6 +159,6 @@ published: true
 			, lbl_count: "donations"
 			, lbl_amount: "FAIR"
 		});
-		</script>
+		</script>-->
 	</div>
 </div>

@@ -43,22 +43,19 @@
 					<span class="icon-bar"></span>
 				</button>
 
-				<img src="/images/logo_sm.png">
-				<a class="navbar-brand" href="/">
-					unMonastery
+				<a href="/">
+					<!--unMonastery-->
+					<img src="/images/logo_sm.png">
 				</a>
 
 			</div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav navbar-right">
 					<li>
-						<a href="/#current-activites">Events</a>
+						<a href="/#current-activites">Gatherings</a>
 					</li>
 					<li>
-						<a href="//discourse.unmonastery.org" target="_blank">Forum</a>
-					</li>
-					<li>
-						<a href="//athens.unmonastery.org">Athens Lab</a>
+						<a href="//unmonastery.org/testlabs">Testlabs</a>
 					</li>
 					<% for document in @getCollection('pages').toJSON(): %>
 						<li
