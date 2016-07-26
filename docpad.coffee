@@ -41,7 +41,7 @@ docpadConfig = {
 			# Styles
 			styles: [
 				"//fonts.googleapis.com/css?family=Montserrat:400,700"
-				"http://fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,400italic,600,600italic,700,700italic"
+				"//fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,400italic,600,600italic,700,700italic"
 				"//api.tiles.mapbox.com/mapbox.js/v2.0.1/mapbox.css"
 				"//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
 				"/scripts/fullcalendar/fullcalendar.min.css"
