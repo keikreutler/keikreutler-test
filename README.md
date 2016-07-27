@@ -22,13 +22,14 @@ The website is built on the [Bootstrap](http://getbootstrap.com) skeleton for [D
 
 ### Editing the site content
 
-Contributors can edit content by being added them as collaborators ([Settings > Collaborators](https://github.com/unmonastery/unmonastery.org/settings/collaboration)) on the repository. Please contact [@keikreutler](https://github.com/keikreutler) if you would like access to edit the content.
+Contributors can edit content by being added as collaborators ([Settings > Collaborators](https://github.com/unmonastery/unmonastery.org/settings/collaboration)) on the repository. Please contact [@keikreutler](https://github.com/keikreutler) if you would like access to edit the content.
 
 You can then edit the Markdown partials at [prose.io/#unmonastery/unmonastery.org](prose.io/#unmonastery/unmonastery.org).
 
 #### Tips for editing using Prose
 
 *  Authenticate on Github before making any changes to files using the green button on the bottom right corner of the screen.
+*  See the unMonastery.org Website Taxonomy document for an overview of editable content.
 
 
 ### License

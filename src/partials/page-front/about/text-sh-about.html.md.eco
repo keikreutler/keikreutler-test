@@ -1,0 +1,39 @@
+-----------
+
+<%- @partial('page-front/about/quote-work-meaning') %>
+<div>
+	<h3 class="animated">The Idea</h3>
+	<div class="hide-desc">
+		<%- @partial('page-front/about/sh-the-idea') %>
+	</div>
+</div>
+<div>
+	<h3 class="animated">The Place</h3>
+	<div class="hide-desc">
+		<%- @partial('page-front/about/sh-the-place') %>
+	</div>
+</div>
+<div>
+	<h3 class="animated">The People</h3>
+	<div class="hide-desc">
+		<%- @partial('page-front/about/sh-the-people') %>
+	</div>
+</div>
+<div>
+	<h3 class="animated">The Work</h3>
+	<div class="hide-desc">
+		<%- @partial('page-front/about/sh-the-work') %>
+	</div>
+</div>
+<div>
+	<h3 class="animated">The Culture</h3>
+	<div class="hide-desc">
+		<%- @partial('page-front/about/sh-the-culture') %>
+	</div>
+</div>
+<div>
+	<h3 class="animated">The Equipment</h3>
+	<div class="hide-desc">
+		<%- @partial('page-front/about/sh-the-equipment') %>
+	</div>
+</div>

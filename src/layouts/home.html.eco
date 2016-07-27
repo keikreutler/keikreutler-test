@@ -88,10 +88,10 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="donate">
-					<%- @partial('footer-donate') %>
+					<%- @partial('page-front/footer/footer-donate') %>
 				</div>
 				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="license">
-					<%- @partial('footer-license') %>
+					<%- @partial('page-front/footer/footer-license') %>
 				</div>
 			</div>
 		</div>
