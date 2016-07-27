@@ -3,4 +3,4 @@
 
 ### Kokkinopilos, Mount Olympus ###
 
-Text
+At the base of Mount Olympus, in an old, empty school...
