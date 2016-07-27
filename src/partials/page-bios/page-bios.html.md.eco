@@ -1,0 +1,68 @@
+--------------
+
+
+## The unMonastery BIOS Scriptorium ##
+
+Falling of a cliff is the easy part.  Chances are that we’ve done something injudicious, but the view on the descent is at least spectacular; it would be nice to make an aesthetically pleasing impact.  Attempting something so bold as the four month 2014 Matera Prototype gave the survivors valuable raw material.  The BIOS Scriptorium toolkit is the result of trying to make sense of this experience in a more than anecdotal manner.  Initially touted rather vulgarly as the 'unMonastery-in-a-Box,' it began scribbled upon a wall as an almost random free association of the forces that buffeted us. Just as we closed the doors on the Grand Experiment of the Matera School, we emerged clutching a cluster of guiding principles which had risen to the surface and adhered to our understanding of the initial explorations as one or two word defining considerations:  The Card Set.  The learned would repeatedly return to these key terms.
+
+Gathering wisdom is not the same as applying it. The unMonasterians have always held one eye upon documenting their deliberations; in such a rich territory as modern monasticism this has produced a well of material for future scholarship. However, this has not been its primary conceived usage. The rationale for folding and refolding our collective terminology upon itself has been to focus and refine the work. The premise being that a common web of reference strengthens our internal sinew.
+
+## Using the Scriptorium ##
+
+As the world fumbles, we look for logic. The unMonastery purports adherence to zero-waste; recycling our experience and folding our references back upon themselves has created a mosaic of understanding far richer than single use instagrams. Illuminating the manuscripts of our history has resulted in an intricate woven tapestry that can provide guidance wherever it be hung…
+
+This archival material has taken many forms: long before we would locate a trial community, a collaborative exploration of the monastery metaphor began in Brussels; then a slue of hopeful and frustrated reports following the contours of the Matera Prototype and the seemingly ill-fitted Mission to Athens. Blogs have been written, e-mails have circulated. The unMonastery Scriptorium Toolkit is our precious collection of artifacts gathered and preserved for coming generations. Working these scraps into articulate documents, it has fallen to the labourers of the Scriptorium to produce our Basic Input/Output System (The unMonastery BIOS).
+
+&nbsp;
+
+
+
+<div class="col-lg-3 col-md-2 col-sm-2 col-xs-2">
+
+	<p>COLLABORATORS
+
+	Ola Moller (MethodKit), Ben Vickers
+
+	DEVELOPMENT PHASE
+
+	Alpha, Local
+
+	FORMAT
+
+	PDF and printed card deck</p>
+
+</div>
+
+
+<div id="bios-components" class="col-lg-9 col-md-10 col-sm-10 col-xs-10 accent-light">
+
+	<div id="unruly" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		<%- @partial('page-bios/bios-components/unruly') %>
+	</div>
+	<div id="bglo" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		<%- @partial('page-bios/bios-components/BGLO') %>
+	</div>
+	<div id="sh" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		<%- @partial('page-bios/bios-components/SH') %>
+	</div>
+	<div id="pm" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		<%- @partial('page-bios/bios-components/PM') %>
+	</div>
+	<div id="card-set" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		<%- @partial('page-bios/bios-components/card-set') %>
+	</div>
+	<div id="memory" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		<%- @partial('page-bios/bios-components/memory') %>
+	</div>
+	<div id="dph" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		<%- @partial('page-bios/bios-components/DPH') %>
+	</div>
+	<div id="tlm" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		<%- @partial('page-bios/bios-components/TLM') %>
+	</div>
+	<div id="stone" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		<%- @partial('page-bios/bios-components/stone') %>
+	</div>
+	<div id="almanac" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		<%- @partial('page-bios/bios-components/almanac') %>
+	</div>
