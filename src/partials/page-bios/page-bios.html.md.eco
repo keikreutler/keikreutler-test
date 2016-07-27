@@ -17,35 +17,35 @@ This archival material has taken many forms: long before we would locate a trial
 
 
 
-<div id="bios-components" class="col-lg-12 col-md-12 col-sm-10 col-xs-10 accent-light">
+<div id="bios-components" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
-	<div id="unruly" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-		<%- @partial('page-bios/bios-components/unruly') %>
-	</div>
-	<div id="bglo" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+	<div id="bglo" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		<%- @partial('page-bios/bios-components/BGLO') %>
 	</div>
-	<div id="sh" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+	<div id="sh" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		<%- @partial('page-bios/bios-components/SH') %>
 	</div>
-	<div id="pm" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-		<%- @partial('page-bios/bios-components/PM') %>
-	</div>
-	<div id="card-set" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+	<div id="card-set" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		<%- @partial('page-bios/bios-components/card-set') %>
 	</div>
-	<div id="memory" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-		<%- @partial('page-bios/bios-components/memory') %>
+	<div id="unruly" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+		<%- @partial('page-bios/bios-components/unruly') %>
 	</div>
-	<div id="dph" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+	<div id="dph" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		<%- @partial('page-bios/bios-components/DPH') %>
 	</div>
-	<div id="tlm" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+	<div id="tlm" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		<%- @partial('page-bios/bios-components/TLM') %>
 	</div>
-	<div id="stone" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+	<div id="pm" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+		<%- @partial('page-bios/bios-components/PM') %>
+	</div>
+	<div id="memory" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+		<%- @partial('page-bios/bios-components/memory') %>
+	</div>
+	<div id="stone" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		<%- @partial('page-bios/bios-components/stone') %>
 	</div>
-	<div id="almanac" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+	<div id="almanac" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		<%- @partial('page-bios/bios-components/almanac') %>
 	</div>
