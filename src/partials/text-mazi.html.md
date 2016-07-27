@@ -1,6 +1,12 @@
 
 ------
 
+<img src="/images/mazi.jpg">
+
+<div class="mask">
+	<img class="mask-image" src="/images/mazi_deptford.jpg">
+</div>  
+
 *Photo from CreekNet pilot project in Deptford, London*
 
 ## Local Wireless Networks ##

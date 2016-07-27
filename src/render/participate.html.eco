@@ -6,7 +6,7 @@ layout: default
 
 <section id="participate">
 	<div class="container">
-	<%- @partial('participate-text') %>
+	<%- @partial('page-participate') %>
 	</div>
 	
 </section>

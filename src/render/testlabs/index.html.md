@@ -13,7 +13,11 @@ pageOrder: 1
 		<div class="row">
 		</div>
 	</div>
-			
+
+	<div class="mask-window">
+		<img class="mask-image" src="/images/kokkinopilos.jpg">
+	</div>
+
 </section>
 
 <!-- Modals -->

@@ -28,9 +28,7 @@ published: true
 
 <section id="about">
 	<div class="container">
-				<p>
-					<%- @partial('quote-work-meaning') %>
-				</p>
+		<%- @partial('quote-work-meaning') %>
 		<div>
 			<h3 class="animated">The Idea</h3>
 			<div class="hide-desc">
@@ -72,38 +70,18 @@ published: true
 
 <section class="accent-light">
 	<div class="container">
-		<a href="/testlabs">
-			<h1>
-				unMonastery Testlabs
-			</h1>
-		</a>
-		<p>
-			<%- @partial('text-testlabs') %>
-		</p>
+
+		<%- @partial('text-testlabs') %>
+
 		<div class="row">
 			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-				<h3>
-					Kokkinopilos, Mount Olympus
-				</h3>
-				<p>
-					Text
-				</p>
+				<%- @partial('text-testlabs-1') %>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-				<h3>
-					Mount Lebanon, New York
-				</h3>
-				<p>
-					Text
-				</p>
+				<%- @partial('text-testlabs-2') %>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-				<h3>
-					The Invisible
-				</h3>
-				<p>
-					Text
-				</p>
+				<%- @partial('text-testlabs-3') %>
 			</div>
 		</div>
 
@@ -136,70 +114,24 @@ published: true
 
 <section id="the-unmonastery-bios" class="accent">
 	<div class="container">
-		<a href="/bios">
-			<img src="/images/unmon_cards.png">
-			<h1>
-				The unMonastery BIOS
-			</h1>
-		</a>
-		<p>
-			<%- @partial('text-bios') %>
-		</p>
+		
+		<%- @partial('text-bios') %>
+		
 	</div>
 </section>
 
 <section id="mazi">
 	<div class="container">
-		<img src="/images/mazi.jpg">
-		<div class="mask">
-			<img class="mask-image" src="/images/mazi_deptford.jpg">
-		</div>
-		<p>
+
 			<%- @partial('text-mazi') %>
-		</p>
+
 	</div>
 </section>
 
 <section id="ways-of-communicating" class="accent-light">
 	<div class="container">
-		<h1>
-			Ways of Communicating
-		</h1>
-		<p>
-			The unMonastery is a strange beast — manifesting itself through conversations, small gatherings, a full blown prototype, scoping exercises and conference presentations. It has found itself with a constantly fluctuating level of supporters, participants and dedicated unMonasterians. Like shifting tectonic plates, opportunity for critical convergence often leads to large volcanoes of activity, which dissipate and move on over time. For ways to connect with a project that has a constantly shifting centre of gravity, please participate in any of our various communication channels.
-		</p>
-		<p>
-			See our <a href="/participate">Expression of Interest</a> form to embark toward the cave entrance.
-		</p> 
-		<div class="row">
-			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1">
-				<a href="//discourse.unmonastery.org" target="blank">
-					<i class="fa fa-rss fa-2x"></i>
-				</a>
-			</div>
-			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-sm-2">
-				<a href="//medium.com/@unmonastery" target="blank">
-					<i class="fa fa-medium fa-2x"></i>
-				</a>
-			</div>
-			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-sm-2">
-				<a href="mailto:bios@unmonastery.org" target="blank">
-					<i class="fa fa-envelope fa-2x"></i>
-
-				</a>
-			</div>
-			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-sm-2">
-				<a href="//twitter.com/unmonastery" target="blank">
-					<i class="fa fa-twitter fa-2x"></i>
-				</a>
-			</div>
-			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-sm-2">
-				<a href="//facebook.com/unmonastery" target="blank">
-					<i class="fa fa-facebook fa-2x"></i>
-				</a>
-			</div>
-		</div>
-
+		
+		<%- @partial('text-ways-of-communicating') %>
 
 	</div>
 </section>

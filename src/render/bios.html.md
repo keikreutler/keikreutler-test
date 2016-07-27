@@ -5,6 +5,8 @@ tags: ['page']
 pageOrder: 2
 ---
 
+<%- @partial('page-bios') %>
+
 <section id="bios">
 	<div class="container">
         <div class="col-lg-12">
