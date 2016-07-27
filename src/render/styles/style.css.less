@@ -25,6 +25,7 @@ body {
 	height: 100%;
 }
 
+/* Used on every page except the main index */
 .body-texture {
 	background-image: url("/images/texture_stucco.png");
 	p {
@@ -35,7 +36,6 @@ body {
 		margin-bottom: 25px;
 	}
 }
-
 a {
 	cursor: pointer;
 }
@@ -198,6 +198,31 @@ section {
 	background-image: url("/images/texture_stucco.png");
 }
 
+.sticky-footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: #FFF;
+	padding: 10px;
+	border: none;
+	box-shadow:  0 -5px 5px -5px rgba(0,0,0,0.1);
+	z-index: 3;
+	p {
+		font-size: 14px;
+		margin: 0;
+		text-transform: uppercase;
+		line-height: 28px;
+		font-weight: 700;
+		color: #555;
+	}
+	.legend {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 16px;
+		text-transform: uppercase;
+		color: @brand-dark;
+	}
+}
+
 .logo {
 	display: block;
 	margin: 0 auto;
@@ -210,7 +235,7 @@ iframe {
 	margin: 0 auto;
 }
 
-#metamap {
+iframe#metamap {
 	width: 100%;
 	height: 65vh;
 }
@@ -239,9 +264,12 @@ iframe {
     }
 }
 
+@mask-window-h:		350px;
+@mask-window-w:		275px;
+
 .mask-window {
-    height: 400px;
-    width: 300px;
+    height: @mask-window-h;
+    width: @mask-window-w;
     border-radius:100% 100% 15px 15px;
     display: block;
     margin: auto;
@@ -261,6 +289,28 @@ iframe {
     img.mask-image {
         opacity: 1;
     }
+}
+
+.mask-container {
+	height: @mask-window-h;
+    width: @mask-window-w;
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+ }
+
+.mask-text {
+	background: #fff;
+	width: @mask-window-w;
+	position:absolute;
+	margin-top: -76px;
+	z-index: 2;
+	opacity: .85;
+	h4 {
+		margin: 10px;
+		line-height: 28px;
+		opacity: 1;
+	}
 }
 
 
@@ -326,6 +376,9 @@ Sections
 		color: #fff;
 	}
 }
+
+/* Footer blocks */
+
 #donate p, #donate h5 {
 	text-align: left;
 	margin-top: 15px;
@@ -342,14 +395,7 @@ Sections on pages
 #bios-components {
 	padding-top: 15px;
 	padding-bottom: 15px;
-	border-radius: 25px;
-	.col-lg-12 {
-		//box-shadow:  0 8px 5px -5px #D8E9BC; //inset 0 0 10px #D8E9BC;
-		/*
-		border: 1px solid #D8E9BC;
-		/*background-color: #D8E9BC;
-		background-image: url("/images/texture_transparent.png");*/		
-	}
+	border-radius: 25px;		
 	h1,h2,h3,h4,h5,h6 {
 		margin: 20px auto;
 	}
@@ -360,7 +406,6 @@ Sections on pages
 		text-align: center;
 		margin-bottom: 25px;
 	}
-
 }
 
 .faircoin {

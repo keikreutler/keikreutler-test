@@ -11,7 +11,7 @@ The website is built on the [Bootstrap](http://getbootstrap.com) skeleton for [D
 	```
 	mkdir unmonastery.org  
 	cd unmonastery.org  
-	git clone https://github.com/unmonastery/unmonastery.org  
+	git clone https://github.com/unmonastery/unmonastery.org .  
 	docpad install eco  
 	docpad run  
 	```
