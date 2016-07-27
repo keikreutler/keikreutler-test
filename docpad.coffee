@@ -36,14 +36,14 @@ docpadConfig = {
 			author: "Kei Kreutler"
 
 			# The website author's email
-			email: "kei@unmonastery.org"
+			email: "kei@ourmachine.net"
 
 			# Styles
 			styles: [
 				"//fonts.googleapis.com/css?family=Montserrat:400,700"
 				"//fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,400italic,600,600italic,700,700italic"
 				"//api.tiles.mapbox.com/mapbox.js/v2.0.1/mapbox.css"
-				"//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+				"//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
 				"/scripts/fullcalendar/fullcalendar.min.css"
 				"/scripts/fullcalendar/fullcalendar.print.css"
 				"/styles/twitter-bootstrap.css"

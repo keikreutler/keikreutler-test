@@ -6,7 +6,14 @@ layout: default
 
 <section id="participate">
 	<div class="container">
-	<%- @partial('page-participate') %>
+		<%- @partial('page-participate') %>
 	</div>
-	
+</section>
+
+<section id="cave" class="accent-texture">
+	<h3>
+		<a href="http://cave.unmonastery.org">
+			<i class="fa fa-fw fa-hourglass-end"></i>
+		</a>
+	</h3>
 </section>
