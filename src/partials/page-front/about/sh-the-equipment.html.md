@@ -1,7 +1,7 @@
-The word “equipe” comes from French, meaning team. The unMonastery equipment consists of its people: those physically present in the building, their global network and the local community. To align and nurture this community, we have developed the key tools of: V.A.V (visceral added value) unCivilisation Readjustment Therapy;  and I Progettini.
+The word “equipe” comes from French, meaning team. The unMonastery equipment consists of its people: those physically present in the building, their global network and the local community. To align and nurture this community, we have developed the key tools of: V.A.V. (visceral added value) unCivilisation Readjustment Therapy and I Progettini.
 
 Visceral Added Value indicates the need to render each action into an exchange that is tactile and measurable in human terms.  It can quickly become imperative that each project be strategically aligned to emphasise its value in a manner that clearly communicates its virtue.  To do so, it is wise to break down often mammoth individual projects into their component, more measurable daily ‘progettini’.
 
-‘unCivilization Readjustment Therapy’ is how we generate team spirit and come closer to better elucidating The ‘We’. (please see:  The Book of Greater and lesser Omissions: The ‘We’).
+‘unCivilization Readjustment Therapy’ is how we generate team spirit and come closer to better elucidating The ‘We’. (Please see:  The Book of Greater and lesser Omissions: The ‘We’.)
 
 In order to preserve our experiences and create value even of our first floundering steps of the Matera prototype, we developed our great documentation tool, The Book of Greater and Lesser Omissions.  In order to provide an overview of the unMonastery idea and develop a tool to involve people and implement new ideas in the unMonastery, we developed the unMonastery BIOS.

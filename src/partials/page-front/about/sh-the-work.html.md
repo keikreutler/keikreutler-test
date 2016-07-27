@@ -1,1 +1,1 @@
-The unMonastery is an attempt to integrate work that provides food and shelter, with work that is meaningful both on a local and global scale. (Please see The Book of Greater and Lesser Omissions: The Work).
+The unMonastery is an attempt to integrate work that provides food and shelter, with work that is meaningful both on a local and global scale. (Please see The Book of Greater and Lesser Omissions: The Work.)
