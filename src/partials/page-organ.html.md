@@ -3,7 +3,7 @@
 
 ## Waking The unMonastery Organ ##
 
-Back in February of 2015, we hosted the first [unMonastery unSummit in Berlin](https://transmediale.de/content/the-first-global-unmonastery-summit) as part of Transmediale: Capture All, at which the majority of the core group were gathered. As part of this gathering we held a series of meetings and events, in which together we sought to identify what was essential to the ongoing development of unMonastery.
+xxxBack in February of 2015, we hosted the first [unMonastery unSummit in Berlin](https://transmediale.de/content/the-first-global-unmonastery-summit) as part of Transmediale: Capture All, at which the majority of the core group were gathered. As part of this gathering we held a series of meetings and events, in which together we sought to identify what was essential to the ongoing development of unMonastery.
 
 One of the central requirements identified during our circles, was the need to form an autonomous legal organ in order to establish clearer structures and models for participation, acknowledge the vast mix of contributions being made by individuals to unMonastery over time, decentralise tacit control within an accountable structure, and advance opportunities for resources to support the establishment of individual unMonastery nodes. This was particularly crucial given that over the past year the initiative and network had grown far beyond its early stage development within the EdgeRyders community.vcxvx
 
