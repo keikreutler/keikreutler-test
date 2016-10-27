@@ -16,60 +16,68 @@ pageOrder: 1
 <div class="container">
 	<div class="row">
 		<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-			<div class="mask-container">
-				<div class="mask-window">
-					<img class="mask-image" src="/images/testlabs/kokkinopilos.jpg">
-					<div class="mask-text">
-				    	<h4>
-				        	Kokkinopilos, Greece<br> 
-				        	<i class="fa fa-moon-o" aria-hidden="true"></i>
-				        </h4>
-				    </div>
+			<a href="/testlabs/mount-olympus">
+				<div class="mask-container">
+					<div class="mask-window">
+						<img class="mask-image" src="/images/testlabs/kokkinopilos.jpg">
+						<div class="mask-text">
+					    	<h4>
+					        	Kokkinopilos, Greece<br> 
+					        	<i class="fa fa-moon-o" aria-hidden="true"></i>
+					        </h4>
+					    </div>
+					</div>
 				</div>
-			</div>
+			</a>
 		</div>
 		<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-			<div class="mask-container">
-				<div class="mask-window">
-					<img class="mask-image" src="/images/testlabs/mount_lebanon.jpg">
-					<div class="mask-text">
-				    	<h4>
-				        	Mount Lebanon, NY<br> 
-				        	<i class="fa fa-circle" aria-hidden="true"></i> 
-				        	<i class="fa fa-dot-circle-o" aria-hidden="true"></i> 
-				        	<i class="fa fa-bell" aria-hidden="true"></i>
-				        <h4>
-				    </div>
+			<a href="/testlabs/mount-lebanon">
+				<div class="mask-container">
+					<div class="mask-window">
+						<img class="mask-image" src="/images/testlabs/mount_lebanon.jpg">
+						<div class="mask-text">
+					    	<h4>
+					        	Mount Lebanon, NY<br> 
+					        	<i class="fa fa-circle" aria-hidden="true"></i> 
+					        	<i class="fa fa-dot-circle-o" aria-hidden="true"></i> 
+					        	<i class="fa fa-bell" aria-hidden="true"></i>
+					        <h4>
+					    </div>
+					</div>
 				</div>
-			</div>
+			</a>
 		</div>
 		<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-			<div class="mask-container">
-				<div class="mask-window">
-					<img class="mask-image" src="/images/testlabs/athens.jpg">
-					<div class="mask-text">
-				    	<h4>
-				        	Athens, Greece<br>
-				        	<i class="fa fa-circle-o" aria-hidden="true"></i>
-				        </h4>
-				    </div>
+			<a href="/testlabs/athens">
+				<div class="mask-container">
+					<div class="mask-window">
+						<img class="mask-image" src="/images/testlabs/athens.jpg">
+						<div class="mask-text">
+					    	<h4>
+					        	Athens, Greece<br>
+					        	<i class="fa fa-circle-o" aria-hidden="true"></i>
+					        </h4>
+					    </div>
+					</div>
 				</div>
-			</div>
+			</a>
 		</div>
 	</div>
 	<div class="row">
 		<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-			<div class="mask-container">
-				<div class="mask-window">
-					<img class="mask-image" src="/images/testlabs/matera.jpg">
-					<div class="mask-text">
-				    	<h4>
-				        	Matera, Italy<br> 
-				        	<i class="fa fa-circle-o" aria-hidden="true"></i>
-				        </h4>
-				    </div>
+			<a href="/testlabs/matera">
+				<div class="mask-container">
+					<div class="mask-window">
+						<img class="mask-image" src="/images/testlabs/matera.jpg">
+						<div class="mask-text">
+					    	<h4>
+					        	Matera, Italy<br> 
+					        	<i class="fa fa-circle-o" aria-hidden="true"></i>
+					        </h4>
+					    </div>
+					</div>
 				</div>
-			</div>
+			</a>
 		</div>
 	</div>
 

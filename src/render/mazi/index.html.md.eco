@@ -1,0 +1,10 @@
+---
+title: MAZI
+layout: default
+---
+
+<section id="the-unmonastery-organ">
+	<div class="container">
+        	<%= @partial('page-mazi') %>
+	</div>
+</section>
