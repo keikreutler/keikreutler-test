@@ -62,19 +62,26 @@ h3,h4,h5,h6 {
 
 footer {
 	font-family: 'Montserrat', sans-serif;
-	background-color: @brand-medium;
 	color: #FFF;
 	text-align: center;
-	padding: 15px 0;
+	padding: 10px 0;
 	a, a:hover, a:visited, a:active {
-		color: #FFF;
+		font-weight: 500;
+		color: @brand-dark;
 	}
 	h1,h2,h3,h4,h5,h6 {
 		color: @brand-dark;
+		font-weight: 500;
 	}
 	p {
+		color: @brand-dark;
 		font-size: 14px;
-		font-weight: 700;
+		font-weight: 500;
+	}
+	pre {
+		background: transparent;
+		border: none;
+		padding: 15px 0;
 	}
 }
 
@@ -195,6 +202,11 @@ section {
 
 .accent-light {
 	background-color: #f4f9ec;
+	background-image: url("/images/texture_stucco.png");
+}
+
+.accent-gray {
+	background-color: @gray-lighter;
 	background-image: url("/images/texture_stucco.png");
 }
 
@@ -385,7 +397,7 @@ Sections
 }
 #license p, #license h5 {
 	margin-top: 15px;
-	text-align: right;
+	text-align: left;
 }
 
 /****************
