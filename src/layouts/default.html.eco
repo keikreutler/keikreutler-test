@@ -82,20 +82,18 @@
 			<%- @content %>
 		</div>
 
-	<!-- Footer -->
-	<footer>
+	<footer class="accent-gray">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="donate">
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" id="donate">
 					<%- @partial('page-front/footer/footer-license') %>
 				</div>
-				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="license">
+				<div class="col-lg-3 col-lg-offset-6 col-md-3 col-sm-offset-6 col-sm-6 col-xs-12" id="license">
 					<%- @partial('page-front/footer/footer-donate') %>
 				</div>
 			</div>
 		</div>
 	</footer>
-
 
 	<!-- Scripts -->
 	<script defer="defer" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>

@@ -2,7 +2,7 @@
 
 #### The Almanac ####
 
-The unMonastery seems dependant upon lunar cycles.
+The unMonastery seems dependent upon lunar cycles.
 
 ##### Development Phase ─ Alpha #####
 

@@ -9,12 +9,14 @@
 </div>  
 </a>
 
-*Photo from CreekNet pilot project in Deptford, London*
+*Photo from [CreekNet](http://www.mazizone.eu/pilot-studies/creeknet/) pilot project in Deptford, London*
 
 ## Local Wireless Networks ##
 
-MAZI means “together” in Greek. The Mazi project is developing a toolkit for building local, community wireless networks: MAZI Zones.
 
-unMonastery is one of the participants... 
+MAZI means “together” in Greek. The MAZI initiative is a Horizon2020 project to develop a toolkit for building local, community wireless networks. The main goal is to create spaces, “MAZI Zones,” that can empower those living in physical proximity to shape their space together. As a pilot in the consortium, the unMonastery’s task becomes to modulate participation, local knowledge, and conviviality according to the specificities of local environments. 
 
-We call this alternative technology Do-It-Yourself networking. It combines wireless technology, low-cost hardware, and free/libre/open source software (FLOSS) applications. MAZI Zones will be easily deployed and configured based on a rich set of customization options and interdisciplinary knowledge.  [Read more…](/mazi)
+<br><br>
+
+##### [READ MORE](/mazi) #####
+
