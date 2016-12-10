@@ -8,12 +8,7 @@ See our [Expression of Interest](/participate) form to embark toward the cave en
 
 
 <div class="row">
-	<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1">
-		<a href="//discourse.unmonastery.org" target="blank">
-			<i class="fa fa-rss fa-2x"></i>
-		</a>
-	</div>
-	<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-sm-2">
+	<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-lg-offset-2 col-md-offset-2 col-sm-offset-2 col-xs-offset-2">
 		<a href="//medium.com/@unmonastery" target="blank">
 			<i class="fa fa-medium fa-2x"></i>
 		</a>
